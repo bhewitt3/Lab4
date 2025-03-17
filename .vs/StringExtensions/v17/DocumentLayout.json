@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\blake\\source\\repos\\StringExtensions\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C83C32AE-EAE5-4DB6-9751-B95A7D060C29}|Solution Items{C83C32AE-EAE5-4DB6-9751-B95A7D060C29}|C:\\Users\\blake\\source\\repos\\StringExtensions\\nuget.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C83C32AE-EAE5-4DB6-9751-B95A7D060C29}|Solution Items{C83C32AE-EAE5-4DB6-9751-B95A7D060C29}|solutionrelative:nuget.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4AF6529-683F-47C9-B27B-C76DD32DEA77}|StringExtensions\\StringExtensions.csproj|c:\\users\\blake\\source\\repos\\stringextensions\\stringextensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4AF6529-683F-47C9-B27B-C76DD32DEA77}|StringExtensions\\StringExtensions.csproj|solutionrelative:stringextensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,15 +18,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "nuget.config",
+              "DocumentMoniker": "C:\\Users\\blake\\source\\repos\\StringExtensions\\nuget.config",
+              "RelativeDocumentMoniker": "nuget.config",
+              "ToolTip": "C:\\Users\\blake\\source\\repos\\StringExtensions\\nuget.config",
+              "RelativeToolTip": "nuget.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-17T18:29:10.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StringExtensions.cs",
               "DocumentMoniker": "C:\\Users\\blake\\source\\repos\\StringExtensions\\StringExtensions\\StringExtensions.cs",
               "RelativeDocumentMoniker": "StringExtensions\\StringExtensions.cs",
@@ -32,14 +61,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T16:51:23.688Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
