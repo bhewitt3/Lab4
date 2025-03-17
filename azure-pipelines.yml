@@ -19,5 +19,10 @@ steps:
   displayName: 'Restore, Build and Pack NuGet Package'
 
 - script: |
+    echo "Checking for packaged NuGet files..."
+    dir $(Build.ArtifactStagingDirectory)  # List files for debugging
+  displayName: 'Debug - Check NuGet Package Path'
+
+- script: |
     dotnet nuget push "$(Build.ArtifactStagingDirectory)/*.nupkg" --source "StringExtensionsFeed" --api-key az --skip-duplicate
   displayName: 'Push to Azure Artifacts Feed'
