@@ -24,5 +24,6 @@ steps:
   displayName: 'Debug - Check NuGet Package Path'
 
 - script: |
-    dotnet nuget push "$(Build.ArtifactStagingDirectory)/*.nupkg" --source "StringExtensionsFeed" --api-key az --skip-duplicate
+    dotnet nuget push "$(Build.ArtifactStagingDirectory)/StringExtensions.1.0.0.nupkg" --source "StringExtensionsFeed" --api-key az --skip-duplicate
   displayName: 'Push to Azure Artifacts Feed'
+
