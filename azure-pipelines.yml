@@ -20,8 +20,8 @@ steps:
   displayName: 'Build and Pack NuGet Package'
 
 - script: |
-    dotnet nuget add source "https://pkgs.dev.azure.com/bhewitt3/_packaging/StringExtensionsFeed/nuget/v3/index.json" --name "StringExtensionsFeed" --username az --password $(System.AccessToken) --store-password-in-clear-text
-  displayName: 'Add Azure Artifacts Feed'
+    dotnet nuget push "$(Build.ArtifactStagingDirectory)/*.nupkg" --source "https://pkgs.dev.azure.com/bhewitt3/_packaging/StringExtensionsFeed/nuget/v3/index.json" --api-key AzureArtifacts --skip-duplicate
+  displayName: 'Push to Azure Artifacts Feed'
 
 - script: |
     dotnet nuget push "$(Build.ArtifactStagingDirectory)/*.nupkg" --source "StringExtensionsFeed" --username az --password $(System.AccessToken) --skip-duplicate
